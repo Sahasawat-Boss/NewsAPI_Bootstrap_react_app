@@ -1,8 +1,10 @@
 import React from 'react'
+import Nav from './components/nav'
 
 const App = () => {
   return (
     <div>
+      <Nav/>
       <button type="button" className="btn btn-primary">Primary</button>
       <button type="button" className="btn btn-secondary">Secondary</button>
       <button type="button" className="btn btn-success">Success</button>
