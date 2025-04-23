@@ -6,7 +6,7 @@ const Nav = ({setCategory}) => {
             data-bs-theme="dark">
 
             <div className="container-fluid">
-                <a className="navbar-brand" href="#"><span className='badge bg-light text-black'>News API App</span></a>
+                <a className="navbar-brand" href="/"><span className='badge bg-light text-dark fs-5'>News API App</span></a>
                 {/* <a className="navbar-brand" href="#">React + Bootstrap</a> */}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
