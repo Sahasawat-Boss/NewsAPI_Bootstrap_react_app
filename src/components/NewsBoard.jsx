@@ -27,18 +27,27 @@ const NewsBoard = ({ category }) => {
                 </div>
 
             ) : (
-                articles.map((news, index) => (
-                    <NewsItems
-                        key={index}
-                        title={news.title}
-                        description={news.description}
-                        src={news.urlToImage}
-                        url={news.url}
-                    />
-                ))
+                <div className="row">
+                    {articles.map((news, index) => (
+                        <div className="col-12 col-md-6 col-xl-4" key={index}>
+                            <NewsItems
+                                title={news.title}
+                                description={news.description}
+                                src={news.urlToImage}
+                                url={news.url}
+                            />
+                        </div>
+                    ))}
+                </div>
             )}
         </div>
     );
 };
 
 export default NewsBoard
+
+// 🧠 Explanation of the Grid:
+
+//col-12: 1 column on extra small devices
+//col-md-6: 2 columns on medium screens (≥768px)
+//col-lg-4: 3 columns on large screens (≥992px)

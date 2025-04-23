@@ -2,3 +2,9 @@ html,
 body {
     background: #505050;
 }
+
+/* styles.css or in your main CSS file */
+.btn-hover-black:hover {
+    color: black !important;
+    background-color: white !important;
+}
