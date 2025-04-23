@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './components/Nav'
-import TestBS from './components/TestBS'
+// import TestBS from './components/TestBS'
 import NewsBoard from './components/NewsBoard'
 
 
@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Nav />
       <NewsBoard />
-      <TestBS />
+      {/* <TestBS /> */}
     </div>
   )
 }
